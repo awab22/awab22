@@ -1,0 +1,233 @@
+boyd {
+    padding: 0px;
+    margin: 0px;
+    background-color: #edf0f5;
+}
+
+header{
+   height: 85px;
+   background-color: #3b5998;
+   border-bottom: 0.5px solid black;
+
+}
+
+header h1 {
+     float: left;
+     padding-left: 10%;
+     color: white;
+     font-weight: 800;
+     font-family: verdana;
+     font-size: 36px;
+     text-shadow: 1px 1px 1px grey;
+}
+
+header h1:hover{
+    cursor: pointer;
+
+}
+
+header table {
+
+float: right;
+padding-right: 10%;
+padding-top: 1%;
+color: white;
+font-size: 12px;
+font-family: Arial;
+}
+
+teble tr td {
+  padding-left: 15px;
+}
+
+table tr td input {
+    border: 1px solid black;
+    height: 20px;
+
+}
+
+teble tr td button {
+    border: none;
+    background-color: #4267b2;
+    color: white;
+    font-family: Arial;
+    padding: 3px 4px;
+    border: 1px solid #29487d;
+}
+
+teble tr td button:hover {
+     cursor: pointer;
+     background-color: #3b5998;
+}
+
+table tr .forget {
+    opacity: 0.6;
+}
+
+table tr .forget:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.table tr td input {
+           width: 172px;
+           border: none;
+           padding: 10px;
+           border-radius: 5px;
+           border: 1px solid #bdc7d8;
+           font-size: 18px;
+}
+
+.table2 tr td input {
+           width: 385px;
+           border: none;
+           padding: 10px;
+           margin-bottom: 5px;
+           margin-top: 5px;
+           border-radius: 5px;
+           border: 1px solid #bdc7d8;
+           font-size: 18px;
+}
+.table tr td input::placeholder {
+    font-size: 20px;
+    color: #424949;
+}
+
+.table2 tr td input::placeholder {
+    font-size: 20px;
+    color: #424949;
+}
+
+.part1 {    
+    clear: both;  
+    font-family: verdana;
+    color: #333333;
+    font-size: 12px;
+    margin-top: 50px;
+    width: 500px;
+    display: inline;
+    margin-left: 150px;
+    float: left;
+}
+
+.part1 h1 {
+    width: 90%;
+}
+.Content {
+    height: 300px;
+}
+
+.part2 {
+    float: left;
+    margin-left: 150px;
+}
+
+.Sign {
+    font-family: Arial;
+    color: #333333;
+}
+
+.Sign h1 {
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+.note {
+    font-size: 20px;
+    color: #333333;
+    font-family: Arial;
+    padding-bottom: 20px;
+}
+.date {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+select {
+    background-color: white;
+    width: 70px;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid #ccd1d1;
+    margin-top: 10px;
+}
+
+.date span {
+    font-size: 18px;
+    color: #7f8c8d;
+    font-family: Arial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.Gender {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.Gender span {
+    font-size: 18px;
+    color: #7f8c8d;
+    font-family: Arial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.Gender div {
+    float: left;
+    font-size: 18px;
+    color: #1d2129;
+    font-family: Arial;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.p1 p {
+    font-size: 10px;
+}
+
+.TR {
+    clear: both;
+    width: 300px;
+    font-size: 11px;
+    margin-left: 15px;
+    padding-top: 15px;
+    color: #717d7e;
+    font-family: Arial;
+}
+
+.TR span {
+    color: #5499c7;
+}
+
+.TR span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Sign_btn {
+    width: 200px;
+    height: 40px;
+    background-color: #5e9a4b;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 19px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 5);
+    cursor: pointer;
+    font-family: 'Freight Sans Bold',Helvetice , Arial , sans-serif !important;
+    font-weight: bold important;
+    letter-spacing: normal;
+    background: linear-gradient(#67ae55 , #578843);
+    background-color: #64a04a;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid #3b6e22;
+    padding: 7px 20px;
+}
+
+.Sign_btn:hover {
+    background: linear-gradient(#7bb960 , #578843);
+}
